@@ -1,0 +1,40 @@
+:root {
+  --blockColor: #333;
+  --navColor: #568;
+}
+
+@font-face {
+  font-family: abel;
+  src: url(../fonts/Abel/Abel-Regular.ttf);
+}
+@font-face {
+  font-family: archivo;
+  src: url(../fonts/Archivo/static/Archivo-Regular.ttf);
+}
+h1 {
+  font-family: archivo;
+  font-size: 2rem;
+  text-align: center;
+}
+nav {
+  background-color: var(--blockColor);
+  padding: 0.2em;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: var(--navColor);
+  font-family: abel;
+}
+footer {
+  background-color: #333;
+  height: 4rem;
+  margin: 1rem 0;
+}
+body {
+  background-color: var(--blockColor);
+}
